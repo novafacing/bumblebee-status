@@ -49,6 +49,11 @@ setup(
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     zip_safe=False,
+    entry_points = {
+        'console_scripts': [
+            'bumblebee_status = app:main'
+        ]
+    },
     data_files=[('share/bumblebee-status/themes', glob.glob('themes/*.json')),
         ('share/bumblebee-status/themes/icons', glob.glob('themes/icons/*.json'))
     ]
