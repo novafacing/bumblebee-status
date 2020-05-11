@@ -1,78 +1,217 @@
 {
-	"icons": [ "paxy97", "awesome-fonts" ],
-	"colors": [{
-		"fg0": "#fbf1c7",
-		"bg0_h": "#1d2021",
-		"yellow": "#d79921",
-		"red": "#cc241d"
-	}],
-	"defaults": {
-		"warning": {
-			"fg": "bg0_h",
-			"bg": "yellow"
-		},
-		"critical": {
-			"fg": "fg0",
-			"bg": "red"
-		},
-		"default-separators": false,
-		"separator-block-width": 0
-	},
-	"cycle": [
-		{
-			"fg": "#ebdbb2",
-			"bg": "#1d2021"
-		},
-		{
-			"fg": "#fbf1c7",
-			"bg": "#282828"
-		}
-	],
-	"dnf": {
-		"good": {
-			"fg": "#002b36",
-			"bg": "#859900"
-		}
-	},
-	"apt": {
-		"good": {
-			"fg": "#002b36",
-			"bg": "#859900"
-		}
-	},
-	"battery": {
-		"charged": {
-			"fg": "#1d2021",
-			"bg": "#b8bb26"
-		},
-		"AC": {
-			"fg": "#1d2021",
-			"bg": "#b8bb26"
-		}
-	},
-  "bluetooth": {
-      "ON": {
-			    "fg": "#1d2021",
-			    "bg": "#b8bb26"
-      }
-  },
-  "git": {
-	"modified": { "bg": "#458588" },
-	"deleted": { "bg": "#9d0006" },
-	"new": { "bg": "#b16286" }
-  },
+    "icons": [ "paxy97", "awesome-fonts" ],
+    "defaults": {
+        "separator-block-width": 0,
+        "default_separators": false,
+        "fg": "#d4be98",
+        "bg": "#32302f"
+    },
+    "git": {
+        "new": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "deletd": {
+            "fg": "#32302f",
+            "bg": "#ea6962"
+        },
+        "modified": {
+            "fg": "#32302f",
+            "bg": "#89b482"
+        }
+    },
+    "github": {
+        "good": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "fg": "#32302f",
+        "bg": "#d3869b"
+
+    },
+    "rss": {
+        "warning": {
+            "fg": "#d4be98",
+            "bg": "#32302f"
+        },
+        "good": {
+            "fg": "#d4be98",
+            "bg": "#32302f"
+        }
+    },
+    "cpu": {
+        "warning": {
+            "fg": "#32302f",
+            "bg": "#e78a4e"
+        },
+        "critical": {
+            "fg": "#32302f",
+            "bg": "#ea6962"
+        },
+        "good": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "fg": "#32302f",
+        "bg": "#a9b665"
+    },
+    "memory": {
+        "critical": {
+            "fg": "#32302f",
+            "bg": "#ea6962"
+        },
+        "warning": {
+            "fg": "#32302f",
+            "bg": "#7daea3"
+        },
+        "good": {
+            "fg": "#d4be98",
+            "bg": "#32302f"
+        }
+    },
+    "disk": {
+        "critical": {
+            "fg": "#32302f",
+            "bg": "#ea6962"
+        },
+        "warning": {
+            "fg": "#32302f",
+            "bg": "#e78a4e"
+        },
+        "good": {
+            "fg": "#32302f",
+            "bg": "#e78a4e"
+        },
+        "fg": "#32302f",
+        "bg": "#89b482"
+    },
+    "traffic": {
+        "tx": {
+            "fg": "#32302f",
+            "bg": "#a9b665 "
+        },
+        "rx": {
+            "fg": "#d4be98",
+            "bg": "#32302f"
+        }
+    },
+    "datetime": {
+        "good": {
+            "fg": "#d4be98",
+            "bg": "#32302f"
+        }
+    },
+    "weather": {
+        "thunder": {
+            "fg": "#32302f",
+            "bg": "#d8a657"
+        },
+        "rain": {
+            "fg": "#32302f",
+            "bg": "#7daea3"
+        },
+        "snow": {
+            "fg": "#32302f",
+            "bg": "#0f3a42"
+        },
+        "sleet": {
+            "fg": "#32302f",
+            "bg": "#404946"
+        },
+        "clear": {
+            "fg": "#32302f",
+            "bg": "#89b482"
+        },
+        "clouds": {
+            "fg": "#d4be98",
+            "bg": "#32302f"
+        }
+    },
+    "battery": {
+        "charged": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "charging": {
+            "fg": "#32302f",
+            "bg": "#d8a657"
+        },
+        "discharging-10": {
+            "fg": "#32302f",
+            "bg": "#ea6962"
+        },
+        "discharging-25": {
+            "fg": "#32302f",
+            "bg": "#e78a4e"
+        },
+        "discharging-50": {
+            "fg": "#32302f",
+            "bg": "#d8a657"
+        },
+        "discharging-80": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "discharging-100": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "unknown-10": {
+            "fg": "#32302f",
+            "bg": "#ea6962"
+        },
+        "unknown-25": {
+            "fg": "#32302f",
+            "bg": "#e78a4e"
+        },
+        "unknown-50": {
+            "fg": "#32302f",
+            "bg": "#d8a657"
+        },
+        "unknown-80": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "unknown-100": {
+            "fg": "#32302f",
+            "bg": "#a9b665"
+        },
+        "AC": {
+            "fg": "#32302f",
+            "bg": "#d4be98"
+        }
+    },
+    "pulseaudio": {
+        "warning": {
+            "fg": "#32302f",
+            "bg": "#d8a657"
+        },
+        "muted": {
+            "fg": "#32302f",
+            "bg": "#d3869b "
+        },
+        "critical": {
+            "fg": "#32302f",
+            "bg": "#ea6962"
+        },
+        "unmuted": {
+            "fg": "#32302f",
+            "bg": "#d4be98"
+        }
+    },
     "pomodoro": {
         "paused": {
-            "fg": "#1d2021",
-            "bg": "#d79921"
+            "fg": "#d4be98",
+            "bg": "#32302f"
         },
         "work": {
-            "fg": "#1d2021",
-            "bg": "#b8bb26"
+            "fg": "#32302f",
+            "bg": "#d3869b"
         },
         "break": {
-            "fg": "#002b36",
-            "bg": "#859900"
+            "fg": "#32302f",
+            "bg": "#a9b665"
         }
     }
+
 }

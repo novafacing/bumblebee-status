@@ -3,59 +3,224 @@
 	"defaults": {
 		"separator-block-width": 0,
 		"critical": {
-			"fg": "#ffffff",
-			"bg": "#ff0000"
+            fg: #32302f,
+            bg: #ea6962 
 		},
 		"warning": {
-			"fg": "#d75f00",
-			"bg": "#ffd700"
+            fg: #32302f,
+            bg: #e78a4e
 		},
 		"default_separators": false
 	},
 	"cycle": [
 		{
-			"fg": "#ffd700",
-			"bg": "#d75f00"
+            fg: #32302f,
+            bg: #d3869b
 		},
 		{
-			"fg": "#ffffff",
-			"bg": "#0087af"
+            fg: #32302f,
+            bg: #a9b665
 		}
 	],
-	"dnf": {
-		"good": {
-			"fg": "#494949",
-			"bg": "#41db00"
-		}
-	},
-	"apt": {
-		"good": {
-			"fg": "#494949",
-			"bg": "#41db00"
-		}
-	},
+    git: {
+        new: {
+            fg: #32302f,
+            bg: #a9b665
+        },
+        deletd: {
+            fg: #32302f,
+            bg: #ea6962
+        },
+        modified: {
+            fg: #32302f,
+            bg: #89b482
+        }
+    },
+    github: {
+        good: {
+            fg: #32302f,
+            bg: #a9b665
+
+        }
+    },
+    rss: {
+        warning: {
+            fg: #32302f,
+            bg: #d8a657
+        },
+        good: {
+            fg: #d4be98,
+            bg: #32302f
+        }
+    },
+    cpu: {
+        warning: {
+            fg: #32302f,
+            bg: #e78a4e
+        },
+        critical: {
+            fg: #32302f,
+            bg: #ea6962
+        },
+        good: {
+            fg: #32302f,
+            bg: #a9b665
+        }
+    },
+    memory: {
+        critical: {
+            fg: #32302f,
+            bg: #ea6962
+        },
+        warning: {
+            fg: #32302f,
+            bg: #7daea3
+        },
+        good: {
+            fg: #32302f,
+            bg: #d3869b
+        }
+    },
+    disk: {
+        crtical: {
+            fg: #32302f,
+            bg: #ea6962
+        },
+        warning: {
+            fg: #32302f,
+            bg: #e78a4e
+        },
+        good: {
+            fg: #32302f,
+            bg: #d8a657
+        }
+    },
+    traffic: {
+        tx: {
+            fg: #32302f,
+            bg: #89b482
+        },
+        rx: {
+            fg: #32302f,
+            bg: #a9b665 
+        }
+    },
+    datetime: {
+        good: {
+            fg: #d4be98,
+            bg: #32302f
+        }
+    },
+    weather: {
+        thunder: {
+            fg: #32302f,
+            bg: #d8a657
+        },
+        rain: {
+            fg: #32302f,
+            bg: #7daea3
+        },
+        snow: {
+            fg: #32302f,
+            bg: #0f3a42
+        },
+        sleet: {
+            fg: #32302f,
+            bg: #404946
+        },
+        clear: {
+            fg: #32302f,
+            bg: #89b482
+        },
+        clouds: {
+            fg: #d4be98,
+            bg: #32302f
+        }
+    },
 	"battery": {
 		"charged": {
-			"fg": "#494949",
-			"bg": "#41db00"
+            fg: #32302f,
+            bg: #a9b665
 		},
+        charging: {
+            fg: #32302f,
+            bg: #d8a657
+        },
+        discharging-10: {
+            fg: #32302f,
+            bg: #ea6962
+        },
+        discharging-25: {
+            fg: #32302f,
+            bg: #e78a4e
+        },
+        discharging-50: {
+            fg: #32302f,
+            bg: #d8a657
+        },
+        discharging-80: {
+            fg: #32302f,
+            bg: #a9b665
+        },
+        discharging-100: {
+            fg: #32302f,
+            bg: #a9b665
+        },
+        unknown-10: {
+            fg: #32302f,
+            bg: #ea6962
+        },
+        unknown-25: {
+            fg: #32302f,
+            bg: #e78a4e
+        },
+        unknown-50: {
+            fg: #32302f,
+            bg: #d8a657
+        },
+        unknown-80: {
+            fg: #32302f,
+            bg: #a9b665
+        },
+        unknown-100: {
+            fg: #32302f,
+            bg: #a9b665
+        },
 		"AC": {
-			"fg": "#494949",
-			"bg": "#41db00"
+            fg: #32302f,
+            bg: #d4be98
 		}
 	},
+    pulseaudio: {
+        warning: {
+            fg: #32302f,
+            bg: #d8a657
+        },
+        muted: {
+            fg: #32302f,
+            bg: #d3869b 
+        },
+        critical: {
+            fg: #32302f,
+            bg: #ea6962
+        },
+        unmuted: {
+            fg: #32302f,
+            bg: #d4be98
+        }
+    },
     "pomodoro": {
         "paused": {
-            "fg": "#d75f00",
-            "bg": "#ffd700"
+            fg: #32302f,
+            bg: #89b482 
         },
         "work": {
-            "fg": "#ffd700",
-            "bg": "#d75f00"
+            fg: #32302f,
+            bg: #d3869b
         },
         "break": {
-            "fg": "#494949",
-            "bg": "#41db00"
+            fg: #32302f,
+            bg: #a9b665
         }
     }
 
